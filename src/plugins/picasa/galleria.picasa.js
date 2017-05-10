@@ -88,7 +88,7 @@ Galleria.Picasa.prototype = {
     */
 
     useralbum: function( username, album, callback ) {
-        return this._call( 'useralbum', 'user/' + username + '/album/' + album, callback );
+        return this._call( 'useralbum', 'user/' + username + '/albumid/' + album, callback );
     },
 
     /**
